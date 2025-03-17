@@ -1,5 +1,5 @@
 class old{
-    int x;
+    int x=10;
     int y;
     void f1(){
 
@@ -16,7 +16,6 @@ class modern extends old{
       System.out.println(super.x);
       System.out.println(y);
     }
-
 }
 public class Inheritance {
     public static  void main(String []x){
