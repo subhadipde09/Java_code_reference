@@ -4,7 +4,6 @@ class old{
     void f1(){
 
     }
-
 }
 class modern extends old{
     int x;
@@ -19,11 +18,7 @@ class modern extends old{
     }
 
 }
-
-
-
-
-public class inheritance {
+public class Inheritance {
     public static  void main(String []x){
        modern m1=new modern();
        m1.f1(5,6);
