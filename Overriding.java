@@ -1,4 +1,4 @@
-//different class buty same function and same argument:
+//different class but same function and same argument:
 class Animal{
     void Displayinfo(){
         System.out.println("i am an animal");
@@ -8,8 +8,6 @@ class Dog extends Animal{
     void Displayinfo(){
         super.Displayinfo();//function overriding
         System.out.println("i am a dog");
-
-
     }
 }
 public class Overriding {
