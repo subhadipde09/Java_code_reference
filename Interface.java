@@ -12,6 +12,9 @@ interface java1 extends java{
         System.out.println(y);
         System.out.println(x);
     }
+    static void f2() {
+        System.out.println(x);
+    }
 }
 class java2 implements java1 {
     public void f1(){
@@ -29,6 +32,8 @@ public class Interface {
         j1.display();
 
         java.f2();
+
+        java1.f2();
 
         java1.g1();
     }
