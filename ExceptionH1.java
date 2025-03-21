@@ -13,7 +13,7 @@ public class ExceptionH1 {
       try{
           System.out.println(name.length());
       }
-      catch (NullPointerException n1){
+      catch (Exception n1){
           System.out.println(n1.getMessage());
       }
         System.out.println("Exception handling");
